@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/colorPrimary"></solid>
+    <corners android:radius="10dp"></corners>
+    <padding android:bottom="12dp"
+        android:left="12dp"
+        android:right="12dp"
+        android:top="12dp"></padding>
+    <stroke android:width="5dp"
+        android:color="@color/colorAccent"></stroke>
+
+    <!--angle 渐变角度,0:左到右;90:下到上;180:右到左;270:上到下-->
+    <gradient android:startColor="@android:color/white"
+        android:endColor="@android:color/black"
+        android:angle="90"></gradient>
+
+    </shape>
